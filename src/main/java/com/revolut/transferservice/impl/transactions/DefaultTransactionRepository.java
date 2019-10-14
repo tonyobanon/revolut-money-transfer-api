@@ -22,7 +22,7 @@ public final class DefaultTransactionRepository implements TransactionRepository
 
     @Override
     public Transaction getById(Long id) {
-        return transactions.getOrDefault(id, getInvalid());
+        return transactions.getOrDefault(id, null);
     }
 
     @Override

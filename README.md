@@ -32,15 +32,15 @@ Design and implement a RESTful API (including data model and the backing impleme
 ## Available services
 - GET [http://localhost:9999/parties?limit=10](http://localhost:9999/parties?limit=10)
 - GET [http://localhost:9999/parties/1](http://localhost:9999/parties/1)
-- PUT http://localhost:9999/parties
+- PUT `http://localhost:9999/parties`
 - GET [http://localhost:9999/parties/1/accounts](http://localhost:9999/parties/1/accounts)
 - GET [http://localhost:9999/accounts?limit=10](http://localhost:9999/accounts?limit=10)
-- PUT http://localhost:9999/accounts
+- PUT `http://localhost:9999/accounts`
 - GET [http://localhost:9999/accounts/1](http://localhost:9999/accounts/1)
 - GET [http://localhost:9999/accounts/1/transactions?limit=100](http://localhost:9999/accounts/1/transactions?limit=100)
 - GET [http://localhost:9999/transactions?limit=100](http://localhost:9999/transactions?limit=100)
 - GET [http://localhost:9999/transactions/1](http://localhost:9999/transactions/1)
-- POST [http://localhost:9999/transactions](http://localhost:9999/transactions)
+- POST `http://localhost:9999/transactions`
 
 ### Pagination
 - [http://localhost:9999/parties?limit=10](http://localhost:9999/parties?limit=10)
