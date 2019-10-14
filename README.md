@@ -25,9 +25,7 @@ Design and implement a RESTful API (including data model and the backing impleme
 - [Apache HttpClient](https://hc.apache.org/index.html) (for unit testing)
 
 ## How to run
-- `mvn compile`
-- `mvn package`
-- `mvn exec:java` or `java -jar target/revolut-money-transfer-api-1.0-dist.jar`
+- `mvn compile && mvn exec:java` or `mvn package && java -jar target/revolut-money-transfer-api-1.0-dist.jar`
 
 ## Available services
 - GET [http://localhost:9999/parties?limit=10](http://localhost:9999/parties?limit=10)
